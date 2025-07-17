@@ -9,6 +9,7 @@ import {
 	Works,
 	StarsCanvas,
 } from "./components";
+import Education from "./components/Education";
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 				<Hero />
 			</div>
 			<About />
+			<Education/>
 			<Experience />
 			<Tech />
 			<Works />

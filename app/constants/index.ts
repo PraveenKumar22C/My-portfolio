@@ -4,6 +4,10 @@ export const navLinks = [
 		title: "About",
 	},
 	{
+		id: "education",
+		title: "Education",
+	},
+	{
 		id: "work",
 		title: "Work",
 	},
@@ -30,6 +34,35 @@ const services = [
 		title: "Cloud Deployment Specialist",
 		icon: "/creator.webp",
 	},
+];
+
+
+const educations = [
+  {
+    title: "Bachelor of Technology in Electronics and Communication Engineering",
+    institution_name: "Siddhartha Institute of Technology and Sciences",
+    icon: "/institution/siddhartha-institute.webp",
+    iconBg: "#383E56",
+    date: "2019 - 2023",
+    points: [
+      "Graduated with a B.Tech in ECE, achieving a CGPA of 6.93, with a focus on electronics, communication systems, and software integration.",
+      "Developed projects leveraging programming skills in JavaScript and Python, bridging electronics and web development.",
+      "Participated in technical workshops and coding events, enhancing problem-solving and software development skills.",
+      "Gained foundational knowledge in web technologies, contributing to proficiency in MERN stack development."
+    ]
+  },
+  {
+    title: "Diploma in Electronics and Communication Engineering",
+    institution_name: "Siddhartha Institute of Technology and Sciences",
+    icon: "/institution/siddhartha-institute.webp",
+    iconBg: "#E6DEDD",
+    date: "2016 - 2019",
+    points: [
+      "Completed a Diploma in ECE, building a strong foundation in electronics, circuit design, and communication systems.",
+      "Developed early programming skills through coursework, including C and basic web development with HTML and CSS.",
+      "Engaged in practical projects and tech symposiums, fostering analytical and technical problem-solving abilities."
+    ]
+  }
 ];
 
 const technologies = [
@@ -212,4 +245,4 @@ const projects: {
 ];
 
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, educations };
