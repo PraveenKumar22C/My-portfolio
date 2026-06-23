@@ -121,20 +121,32 @@ const technologies = [
 ];
 
 const experiences = [
-	{
-		title: "Junior Software Engineer",
-		company_name: "Klarity Learning",
-		icon: "/company/klarity.webp",
-		iconBg: "#383E56",
-		date: "2024 - Present",
-		points: [
-			"Developing scalable, AI-powered web applications using the MERN stack, focusing on interactive learning experiences for children.",
-			"Building fast, SEO-friendly, and responsive user interfaces with React.js and Next.js, incorporating server-side rendering (SSR) and static site generation (SSG).",
-			"Creating secure REST APIs with Node.js and Express.js, integrating JWT and bcrypt for authentication and authorization.",
-			"Optimizing data storage and management using MongoDB and Mongoose, ensuring high performance and scalability.",
-			"Collaborating in Agile development environments, utilizing Git, GitHub, and CI/CD tools for version control and deployment."
-		],
-	},
+{
+title: "SDE - 1",
+company_name: "Salaah Shots",
+icon: "/company/salaahshots.webp",
+iconBg: "#383E56",
+date: "2025/09 - Present",
+points: [
+"Developed scalable LMS and mentorship web applications using React.js, Vue.js, MUI, and SCSS.",
+"Built secure RESTful APIs with Node.js, Express.js, and MongoDB for core platform features.",
+"Implemented JWT-based authentication and role-based access control.",
+"Optimized application performance, ensured responsive UI, and followed Agile and CI/CD workflows."
+],
+},
+{
+title: "Junior Software Engineer",
+company_name: "Klariti Learning",
+icon: "/company/klarity.webp",
+iconBg: "#383E56",
+date: "2025/03 - 2025/08",
+points: [
+"Developed scalable, SEO-optimized web applications using React.js, Next.js, and Tailwind CSS.",
+"Built secure REST APIs with Node.js, Express.js, and MongoDB.",
+"Implemented Server-Side Rendering (SSR) and Static Site Generation (SSG) to improve performance and SEO.",
+"Applied JWT-based authentication and followed Agile and CI/CD development workflows."
+],
+},
 ];
 
 const testimonials = [
