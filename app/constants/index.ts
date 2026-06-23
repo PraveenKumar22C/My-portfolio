@@ -43,7 +43,7 @@ const educations = [
     institution_name: "Siddhartha Institute of Technology and Sciences",
     icon: "/institution/siddhartha-institute.webp",
     iconBg: "#383E56",
-    date: "2019 - 2023",
+    date: "2020 - 2023",
     points: [
       "Graduated with a B.Tech in ECE, achieving a CGPA of 6.93, with a focus on electronics, communication systems, and software integration.",
       "Developed projects leveraging programming skills in JavaScript and Python, bridging electronics and web development.",
@@ -56,7 +56,7 @@ const educations = [
     institution_name: "Siddhartha Institute of Technology and Sciences",
     icon: "/institution/siddhartha-institute.webp",
     iconBg: "#E6DEDD",
-    date: "2016 - 2019",
+    date: "2015 - 2019",
     points: [
       "Completed a Diploma in ECE, building a strong foundation in electronics, circuit design, and communication systems.",
       "Developed early programming skills through coursework, including C and basic web development with HTML and CSS.",
@@ -180,7 +180,20 @@ const projects: {
   deploy_link: string;
   platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web";
 }[] = [
-  {
+{
+  name: "Medical Mentorship Platform – Salaah Shots",
+  description:
+    "A doctor-to-doctor mentorship and career guidance platform built for medical students and professionals. Features 1:1 mentor matching, session booking, personalized career pathways, progress tracking dashboards, webinar management, and scalable analytics for NEET-PG, INICET, UPSC CMS, USMLE, PLAB, and other medical career tracks.", // Based on platform capabilities and mentorship focus :contentReference[oaicite:0]{index=0}
+  tags: [
+    { name: "next", color: "blue-text-gradient" },
+    { name: "nodejs", color: "green-text-gradient" },
+    { name: "mongodb", color: "pink-text-gradient" },
+    { name: "tailwind", color: "orange-text-gradient" },
+  ],
+  image: "/projectimg/salaahshots.png",
+  platform: "Web",
+  deploy_link: "https://salaahshots.com",
+},  {
     name: "Advanced LMS – Klariti Learning",
     description:
       "A scalable, interactive LMS platform for children, educators, and admins with SSR/SSG using Next.js, deployed on GCP. Includes dashboards, live monitoring, role-based access, and JWT-based secure login.",
