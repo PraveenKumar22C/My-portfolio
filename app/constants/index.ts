@@ -124,7 +124,7 @@ const experiences = [
 {
 title: "SDE - 1",
 company_name: "Salaah Shots",
-icon: "/company/salaahshots.webp",
+icon: "/company/salaahshots.png",
 iconBg: "#383E56",
 date: "2025/09 - Present",
 points: [
