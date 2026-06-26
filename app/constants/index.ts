@@ -66,58 +66,19 @@ const educations = [
 ];
 
 const technologies = [
-	{
-		name: "HTML 5",
-		icon: "/tech/html.png",
-	},
-	{
-		name: "CSS 3",
-		icon: "/tech/css.png",
-	},
-	{
-		name: "JavaScript",
-		icon: "/tech/javascript.png",
-	},
-	{
-		name: "TypeScript",
-		icon: "/tech/typescript.png",
-	},
-	{
-		name: "React JS",
-		icon: "/tech/reactjs.png",
-	},
-	{
-		name: "Next.JS",
-		icon: "/tech/nextjs.png",
-	},
-	{
-		name: "Redux Toolkit",
-		icon: "/tech/redux.png",
-	},
-	{
-		name: "Tailwind CSS",
-		icon: "/tech/tailwind.webp",
-	},
-  {
-    name: "Node.js",
-    icon: "/tech/nodejs.webp", 
-  },
-  {
-    name: "Express.js",
-    icon: "/tech/express.webp",
-  },
-	{
-		name: "git",
-		icon: "/tech/git.webp",
-	},
-  {
-    name: "MongoDB",
-    icon: "/tech/mongodb.webp",
-  },
-	{
-		name: "bootstrap",
-		icon: "/tech/bootstrap.webp",
-	},
+  { name: "HTML 5",        icon: "/tech/html.webp" },
+  { name: "CSS 3",         icon: "/tech/css.webp" },
+  { name: "JavaScript",    icon: "/tech/javascript.webp" },
+  { name: "TypeScript",    icon: "/tech/typescript.webp" },
+  { name: "React JS",      icon: "/tech/reactjs.webp" },
+  { name: "Next.JS",       icon: "/tech/nextjs.png" },
+  { name: "Redux Toolkit", icon: "/tech/redux.webp" },
+  { name: "Tailwind CSS",  icon: "/tech/tailwind.webp" },
+  { name: "Node.js",       icon: "/tech/nodejs.webp" },
+  { name: "Express.js",    icon: "/tech/express.webp" },
+  { name: "git",           icon: "/tech/git.webp" },
+  { name: "MongoDB",       icon: "/tech/mongodb.webp" },
+  { name: "Bootstrap",     icon: "/tech/bootstrap.webp" },
 ];
 
 const experiences = [
