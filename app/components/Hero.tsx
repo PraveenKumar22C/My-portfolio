@@ -1,9 +1,20 @@
 "use client";
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ComputersCanvas } from "./canvas";
+import Image from "next/image";
 
 const Hero = () => {
+	const [isMobile, setIsMobile] = useState(false);
+
+	useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    setIsMobile(mediaQuery.matches);
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mediaQuery.addEventListener("change", handler);
+    return () => mediaQuery.removeEventListener("change", handler);
+  }, []);
+  
 	return (
 		<section className="relative w-full h-screen mx-auto">
 			<div className="paddingX absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5">
@@ -20,7 +31,9 @@ const Hero = () => {
 					</p>
 				</div>
 			</div>
-			<ComputersCanvas />
+		{!isMobile && (
+        <ComputersCanvas />
+      )}
 			<div className="absolute xs:bottom-2 bottom-32 w-full flex justify-center items-center">
 				<a href="#about">
 					<div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
