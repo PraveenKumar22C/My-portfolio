@@ -68,31 +68,31 @@ const educations = [
 const technologies = [
 	{
 		name: "HTML 5",
-		icon: "/tech/html.webp",
+		icon: "/tech/html.png",
 	},
 	{
 		name: "CSS 3",
-		icon: "/tech/css.webp",
+		icon: "/tech/css.png",
 	},
 	{
 		name: "JavaScript",
-		icon: "/tech/javascript.webp",
+		icon: "/tech/javascript.png",
 	},
 	{
 		name: "TypeScript",
-		icon: "/tech/typescript.webp",
+		icon: "/tech/typescript.png",
 	},
 	{
 		name: "React JS",
-		icon: "/tech/reactjs.webp",
+		icon: "/tech/reactjs.png",
 	},
 	{
 		name: "Next.JS",
-		icon: "/tech/nextjs.svg",
+		icon: "/tech/nextjs.png",
 	},
 	{
 		name: "Redux Toolkit",
-		icon: "/tech/redux.webp",
+		icon: "/tech/redux.png",
 	},
 	{
 		name: "Tailwind CSS",
