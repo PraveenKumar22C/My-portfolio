@@ -3,7 +3,7 @@ import { navLinks } from "@/app/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import ResumeButton from "./ResumeButton";
+// import ResumeButton from "./ResumeButton";
 
 const Navbar = () => {
 	const [active, setActive] = useState("");
@@ -68,9 +68,9 @@ const Navbar = () => {
 						</li>
 					))}
 				</ul>
-				<div className="mt-2 lg:block hidden">
+				{/* <div className="mt-2 lg:block hidden">
 					<ResumeButton />
-				</div>
+				</div> */}
 
 				<div className="sm:hidden flex flex-1 justify-end items-center">
 					<Image
@@ -102,11 +102,11 @@ const Navbar = () => {
 									<Link href={`#${nav.id}`}>{nav.title}</Link>
 								</li>
 							))}
-							<li>
+							{/* <li>
 								<div className="mt-2">
 									<ResumeButton />
 								</div>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>
